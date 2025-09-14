@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio side project</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Ankit <span>Kumar</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Service</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="1742567360962.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey I'm <span>ANKIT</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a <span class="typewriter-text"></span><label for="">|</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    I’m a first-year B.Tech CSE student at JECRC, passionate about building real-world applications that make learning and management easier. Over the past months, I’ve been exploring full-stack development, working with Next.js, TypeScript, Tailwind CSS, and experimenting with Firebase/Replit for backend systems.
+                                                        <div class="social-links">
+                    <a href="https://github.com/ankit07-techie" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ankit_techie_07?igsh=MXdoZjkzOXppMHNzdw%3D%3D" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ankit-kumar-54b620303" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://x.com/" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="btn">
+                    <a href="mailto:ankit2007kumarsawpd@gmail.com">
+                        <button>Hire me</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="main-container">
+            <div class="content">
+                <h2>💻 Technical Skills</h2>
+                <ul>
+                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS</li>
+                    <li><strong>Backend:</strong> Firebase (Auth, Firestore, Storage), Replit (basic backend setup)</li>
+                    <li><strong>Database:</strong> Firestore, basics of SQL</li>
+                    <li><strong>Version Control & Deployment:</strong> Git, GitHub, Vercel</li>
+                </ul>
+                <br>
+                <h2>🎨 Design & Prototyping</h2>
+                <ul>
+                    <li>UI/UX wireframing with Canva & Figma</li>
+                    <li>Creating flowcharts and system diagrams</li>
+                </ul>
+                <br>
+                <h2>📚 Academic & Problem Solving</h2>
+                <ul>
+                    <li>Basics of Data Structures & Algorithms</li>
+                    <li>Problem-solving on GeeksforGeeks</li>
+                    <li>Strong foundation in logical thinking & system design</li>
+                </ul>
+                <br>
+                <h2>🌱 Currently Learning</h2>
+                <ul>
+                    <li>Full-stack development (Next.js + Firebase)</li>
+                    <li>Real-time notification systems</li>
+                    <li>Automated attendance & IoT-based concepts</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="main-container">
+            <div class="content">
+                <h2>🚀 Services</h2>
+                <ul>
+                    <li><strong>Frontend Development:</strong> Building responsive, modern UIs with HTML, CSS, JavaScript, TypeScript, React, and Next.js.</li>
+                    <li><strong>UI/UX Design:</strong> Designing clean and user-friendly interfaces, flowcharts, and prototypes (Canva/Figma).</li>
+                    <li><strong>Backend & Database Setup:</strong> Basic backend setup using Firebase (authentication, database, storage).</li>
+                    <li><strong>Project Prototyping:</strong> Turning ideas into structured solutions with flowcharts, system design, and working demos.</li>
+                    <li><strong>Deployment & Hosting:</strong> Deploying web projects on Vercel or Replit for live testing.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="main-container">
+            <div class="content">
+                <h2>📞 Contact</h2>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+91 7004696801</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>ankit2007kumarsawpd@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-to-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
